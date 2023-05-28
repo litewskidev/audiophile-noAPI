@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/audiophile-noAPI/static/css/main.d49c4e60.css",
-    "main.js": "/audiophile-noAPI/static/js/main.29e16ce0.js",
+    "main.js": "/audiophile-noAPI/static/js/main.64e4b14c.js",
     "index.html": "/audiophile-noAPI/index.html",
     "main.d49c4e60.css.map": "/audiophile-noAPI/static/css/main.d49c4e60.css.map",
-    "main.29e16ce0.js.map": "/audiophile-noAPI/static/js/main.29e16ce0.js.map"
+    "main.64e4b14c.js.map": "/audiophile-noAPI/static/js/main.64e4b14c.js.map"
   },
   "entrypoints": [
     "static/css/main.d49c4e60.css",
-    "static/js/main.29e16ce0.js"
+    "static/js/main.64e4b14c.js"
   ]
 }
