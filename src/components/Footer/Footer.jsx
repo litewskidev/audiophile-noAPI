@@ -38,8 +38,8 @@ const Footer = () => {
         <p className='text__body'>Copyright 2023. All Rights Reserved</p>
         <ul className='footer__icons'>
           <li><a href='#'><img src={`${process.env.PUBLIC_URL}/assets/shared/desktop/icon-facebook.svg`} alt='facebook' /></a></li>
-          <li><a href='#'><img src={`${process.env.PUBLIC_URL}/assets/shared/desktop/icon-instagram.svg`} alt='instagram' /></a></li>
           <li><a href='#'><img src={`${process.env.PUBLIC_URL}/assets/shared/desktop/icon-twitter.svg`} alt='twitter' /></a></li>
+          <li><a href='#'><img src={`${process.env.PUBLIC_URL}/assets/shared/desktop/icon-instagram.svg`} alt='instagram' /></a></li>
         </ul>
       </div>
     </div>
