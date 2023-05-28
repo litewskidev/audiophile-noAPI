@@ -37,7 +37,7 @@ const Cart = () => {
       <div className='cart__products'>
         {(cart.length === 0) ? (
           <div className='text__body cart__empty'>
-            <img src={process.env.PUBLIC_URL + './assets/cart/HighGradeHeadset.svg'} alt='empty cart'/>
+            <img src={process.env.PUBLIC_URL + '/assets/cart/HighGradeHeadset.svg'} alt='empty cart'/>
             <p>Your cart is empty</p>
           </div>
         ) : (
