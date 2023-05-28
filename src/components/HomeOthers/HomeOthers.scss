@@ -19,7 +19,7 @@
   .box__one__picture {
     z-index: 4;
     position: relative;
-    top: 3.5rem;
+    top: 3.65rem;
     left: -1rem;
   }
 
@@ -119,13 +119,14 @@
 }
 
 .box__three {
+  margin-top: -0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 1.875rem;
 
   picture {
-    width: 48%;
+    width: 49%;
   }
 }
 
