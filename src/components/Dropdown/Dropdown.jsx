@@ -6,7 +6,7 @@ const Dropdown = () => {
   const navigate = useNavigate();
 
   return (
-    <div id='dropdown' >
+    <div>
       <ul className='dropdown__list'>
         <li>
           <div className='dropdown__box'>

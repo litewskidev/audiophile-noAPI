@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 2.25rem;
+  gap: 2.1rem;
   margin-top: 12.5rem;
   padding: 0 10.313rem;
   padding-bottom: 3rem;
@@ -46,7 +46,7 @@
 }
 
 .footer__logo {
-  margin-top: 2.438rem;
+  margin-top: 2rem;
   max-width: 50%;
 }
 
@@ -56,6 +56,7 @@
   gap: 2.125rem;
   padding: 0;
   margin-top: 2.438rem;
+  margin-bottom: 0;
 }
 
 .footer__info {
@@ -68,6 +69,10 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+
+  p {
+
+  }
 }
 
 .footer__icons {

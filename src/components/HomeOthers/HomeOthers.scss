@@ -12,14 +12,14 @@
   background-color: $orange-dark;
   text-align: center;
   color: $white;
-  padding: 3.438rem 1.5rem;
+  padding: 3.3rem 1.5rem;
   z-index: 5;
   height: 35rem;
 
   .box__one__picture {
     z-index: 4;
     position: relative;
-    top: 3.1rem;
+    top: 3.5rem;
     left: -1rem;
   }
 
@@ -85,7 +85,7 @@
 
 .box__two__inner {
   position: absolute;
-  top: 30%;
+  top: 31%;
   padding: 0 5.938rem;
 
   p {
@@ -125,13 +125,13 @@
   gap: 1.875rem;
 
   picture {
-    width: 50%;
+    width: 48%;
   }
 }
 
 .box__four {
   padding: 0 5.938rem;
-  padding-top: 6.313rem;
+  padding-top: 6rem;
   flex: 1;
 }
 
