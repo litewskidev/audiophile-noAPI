@@ -1,0 +1,25 @@
+@import './typography.scss';
+@import './settings.scss';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  //max-width: 1440px;
+  background-color: $gray-light;
+  font-family: $font-text;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: default;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:link {
+    text-decoration: none !important;
+  }
+}

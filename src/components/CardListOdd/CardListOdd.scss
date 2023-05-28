@@ -1,0 +1,108 @@
+.cardlist__wrapper__odd {
+  display: flex;
+  text-align: center;
+  gap: 7.813rem;
+
+  .cardlist__overline__odd {
+    margin-bottom: -1rem;
+  }
+
+  .cardlist__description__odd {
+    opacity: 0.6;
+  }
+
+  picture {
+    img{
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+.cardlist__btn__box__odd {
+  margin-top: 0.5rem;
+}
+
+.cardlist__btn__odd {
+  display: inline;
+}
+
+.cardlist__box__odd {
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  text-align: start;
+
+  h1 {
+    width: 70%;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 1023.98px) {
+
+  .cardlist__wrapper__odd {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 1.25rem;
+
+    .cardlist__overline__odd {
+      margin-top: 2rem;
+      margin-bottom: -1rem;
+      margin-left: 0.8rem;
+    }
+
+    .cardlist__description__odd {
+      width: 80%;
+    }
+  }
+
+  .cardlist__box__odd {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cardlist__btn__box {
+    margin-top: -0.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .cardlist__wrapper__odd {
+    text-align: center;
+    gap: 0.5rem;
+
+    .cardlist__overline__odd {
+      margin-top: 1.5rem;
+      margin-bottom: 0;
+    }
+
+    .cardlist__description__odd {
+      width: 99%;
+    }
+  }
+
+  .cardlist__box__odd {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+
+    h1 {
+      width: 70%;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .cardlist__btn__box {
+    margin-top: 0rem;
+  }
+}

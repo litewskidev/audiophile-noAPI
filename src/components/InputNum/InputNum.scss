@@ -1,0 +1,52 @@
+@import '../../styles/settings.scss';
+
+.inputNum__card {
+  background: $gray;
+  max-width: 7.5rem;
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: contrast(0.9);
+  padding: 0 1rem;
+
+  .inputNum__count {
+    margin: 0 1.8rem;
+  }
+}
+
+.inputNum__cart {
+  background: $gray;
+  max-width: 7rem;
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: contrast(0.9);
+  padding: 0 1rem;
+
+  .inputNum__count {
+    margin: 0 1rem;
+  }
+}
+
+.inputNum__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 0.813rem;
+  }
+}
+
+.inputNum__symbols {
+  font-size: 1rem !important;
+  opacity: 0.7;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $orange-dark;
+  }
+}

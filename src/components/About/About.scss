@@ -1,0 +1,64 @@
+@import '../../styles/settings.scss';
+
+.about__wrapper {
+  margin-top: 12.2rem;
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  span {
+    color: $orange-dark;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    letter-spacing: 1px !important;
+    font-weight: 900 !important;
+  }
+
+  p {
+    opacity: 0.6;
+  }
+}
+
+.about__info {
+  //margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 47%;
+  padding-right: 4.5rem;
+}
+
+@media (max-width: 1023.98px) {
+
+  .about__wrapper {
+    margin-top: 7.5rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about__info {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .about__wrapper {
+    h1 {
+      font-size: 1.75rem;
+      line-height: 2.375rem;
+    }
+  }
+}

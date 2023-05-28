@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  padding: 0 35rem;
+}
+
+
+@media (max-width: 2559.98px) {
+  .container {
+    position: relative;
+    padding: 0 10.313rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    position: relative;
+    padding: 0 2.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    position: relative;
+    padding: 0 1.5rem;
+  }
+}
